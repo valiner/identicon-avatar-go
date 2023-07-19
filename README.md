@@ -10,7 +10,7 @@ identicon 根据一个字符串(可以是用户的ID或者IP)的哈希值生成�
 </p>
 
 <p align="center">
-基于go基础库
+无外部依赖，基于go基础库
 </p>
 
 ## 安装
@@ -21,10 +21,10 @@ $ go get github.com/valiner/identicon-avatar-go
 
 ## 使用
 ```go
-//生成本地图片
+//获取'sdp'的125px的图像的的BASE64
 identicon.SaveAvatar("sdp", 125, "test.jpg")
 
-//图片base64 uri
+//获取'sdp'的125px的图像的的BASE64
 identicon.GetAvatarDataUri("sdp", 125)
 ```
 

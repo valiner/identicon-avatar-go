@@ -1,3 +1,3 @@
-module identicon
+module github.com/valiner/identicon-avatar-go
 
-go 1.20
+go 1.12
